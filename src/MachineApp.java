@@ -60,6 +60,7 @@ public class MachineApp {
                     break;
                 default:
                     System.out.println("Please input a valid number.");
+                    showWelcomeScreen();
             }
         } catch (NumberFormatException ex) {
             System.out.println("Only number value is accepted.");
