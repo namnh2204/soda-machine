@@ -64,7 +64,7 @@ public class MachineApp {
             }
         } catch (NumberFormatException ex) {
             System.out.println("Only number value is accepted.");
-            showDepositScreen();
+            showWelcomeScreen();
         }
     }
 
